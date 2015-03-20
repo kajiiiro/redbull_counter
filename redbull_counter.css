@@ -1,0 +1,17 @@
+body {
+	background-color: darkgoldenrod;
+}
+
+#redbull_contener {
+}
+
+.redbull_action {
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+}
+
+.redbull_highlight {
+	font-size: 36px;
+	background-color: goldenrod;
+}
