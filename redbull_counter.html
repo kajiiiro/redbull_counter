@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<title>RedBull Counter</title>
+		<link rel="shortcut icon" href="predator-512.png">
+		<link rel="stylesheet" type="text/css" href="redbull_counter.css" media="screen" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="redbull_counter.js"></script>
+	</head>
+	<body>
+		<div id="redbull_contener">
+			<img src="Red-Bull-Energy-Drink-Can-JP-closed.png" class="redbull redbull_closed" width="100">
+		</div>
+		<input type="button" value="一本飲む！" onclick='rc.drink();'></input>
+		<input type="button" value="一本買う！" onclick='rc.buy();'></input>
+		<input type="button" value="飲んだら捨てろ" onclick='rc.clean();'></input>
+	</body>
+</html>
